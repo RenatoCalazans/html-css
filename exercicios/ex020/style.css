@@ -1,0 +1,13 @@
+body{
+    display: flex;
+}
+div{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: aqua;
+}
+div:hover{
+    background-color: red;
+}
