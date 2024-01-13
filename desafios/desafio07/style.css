@@ -1,0 +1,18 @@
+body{
+    background-color: rgba(0, 0, 0, 0.781);
+}
+div.video{
+    padding: 50px;
+}
+a{
+    color: white;
+
+
+}
+p{
+    padding: 5px;
+    font-size: 22px;
+}
+img{
+    margin-left: 40px;
+}
