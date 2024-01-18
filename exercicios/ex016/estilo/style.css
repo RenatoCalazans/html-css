@@ -7,17 +7,19 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 main{
-    width: 900px;
+    width: 800px;
     background-color: white;
     margin: auto;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px black;
 }
 h1{
     color: aqua;
     text-align: center;
-    text-shadow: 0px 0px 5px black;
+    text-shadow: 0px 0px 3px white;
     font-size: 39px;
     padding: 20px;
-    background-color: rgb(0, 0, 2);
+    background-color: rgb(0, 0, 0);
 }
 h2{
     color: red;
@@ -26,6 +28,7 @@ h2{
     text-shadow: 0px 0px 1px black;
     font-size: 27px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 8px;
     
 }
 p{
