@@ -1,9 +1,61 @@
 @charset "utf-8";
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+}
+html,body{
+    min-height: 100vh;
+    background-color: darkgray;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}   
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+header > p{
+    padding-bottom: 50px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+    color: red;
 }
 
-body{
-    background-color: chocolate;
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section.imagem{
+    background-color: rgba(0, 0, 0, 0.562);
+    color: white;
+}
+
+section.imagem > p{
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.322);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 18px;
 }
