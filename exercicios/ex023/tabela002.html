@@ -20,6 +20,13 @@
         table{
             border-collapse: collapse;
             width: 500px;
+            position: relative;
+        }
+
+        thead >tr >th{
+            position: sticky;
+            top: -1px;
+            background-color:rgba(0, 0, 0, 0.596);
         }
 
        table th, td {
@@ -32,6 +39,9 @@
         background-color: rgba(0, 0, 0, 0.596);
         color: white;
         text-shadow: 2px 2px 5px black;
+       }
+       tbody > tr:nth-child(2n){
+        background-color:lightgray;
        }
        .num{
         text-align: right;
