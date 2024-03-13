@@ -9,11 +9,73 @@
     <h1>tipos de formularios</h1>
     <form action="cadastro.php" method="post">
 
-        
+        <p>
+            <label for="iest">Estado</label>
+            <select name="estado" id="iest">
+
+                <option value="" selected>--escolha--</option>
+                <optgroup label="Regiao Norte">
+                    <option value="AC">Acre</option>
+                    <option value="AP">Amapa</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="PA">Para</option>
+                    <option value="RO">Rondonia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="TO">Tocantis</option>
+                </optgroup>
+
+                <optgroup label="Regiao Nordeste">
+                    <option value="AL">Alagoas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceara</option>
+                    <option value="MA">Maranhao</option>
+                    <option value="PB">Paraiba</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piaui</option>
+                    <option value="RN">Rio Grande Do Norte</option>
+                    <option value="SE">Sergipe</option>
+                </optgroup>
+
+                <optgroup label="Regiao Centro-Oeste">
+                    <option value="DF">Distrito Federal</option>
+                    <option value="GO">Goias</option>
+                    <option value="MT">mato Grosso</option>
+                    <option value="MS">mato Grosso Do Sul</option>
+                </optgroup>
+
+                <optgroup label="Regiao Sudeste">
+                    <option value="ES">Espirito Santo</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="RJ">Rio De Janeiro</option>
+                    <option value="SP">Sao Paulo</option>
+                </optgroup>
+
+                <optgroup label="Regiao Sul">
+                    <option value="PR">Parana</option>                
+                    <option value="RS">Rio Grande Do Sul</option>
+                    <option value="SC">Santa Catarina</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="iprof">Profissao</label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+             <datalist id="lstprof">
+                <option >administrador</option>
+                <option >barbeiro</option>
+                <option >carpiteiro</option>
+                <option >estilista</option>
+             </datalist>
+        </p>
+        <p>
+            <label for="imsg">mensagem</label><br>
+            <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+        </p>
         <p>
             <input type="submit" value="enviar">
             <input type="reset" value="limpar">
         </p>
+
     </form>
 </body>
 </html>
