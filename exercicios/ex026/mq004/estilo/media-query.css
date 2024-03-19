@@ -1,6 +1,22 @@
 @charset "utf-8";
 
 @media print{
+    body{
+        background-image: url(../imagem/back-print.jpg);
+
+        img#phone{display: none;}
+        img#tablet{display: none;}
+        img#impressora{display: block;}
+        img#pc{display: none;}
+        img#tv{display: none;}
+    }
+    main{
+        border: 2px solid black;
+    }
+    main h1{
+    color: black;
+    }
+
 
 }
 @media screen and (min-width: 768px) and (max-width: 992px){
